@@ -44,7 +44,7 @@ const Payroll = () => {
         </div>
         <br />
         <div className="row p-5 mt-5">
-          <div className="col-lg-7 offset-5 p-5">
+          <div className="col-lg-7 offset-lg-5 p-5">
             <h3>
               We offer all your employees the ability to gain instant access to
               their funds with a prepaid debit card.
