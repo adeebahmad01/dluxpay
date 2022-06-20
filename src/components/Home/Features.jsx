@@ -21,24 +21,24 @@ const Features = () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 p-4">
+          <div className="col-sm-6 p-md-4 p-sm-3 p-0">
             <div className="box" style={{ "--image": `url(${feature1})` }}>
               DluxPay has industry vet developers that run, operate and secure
               our proprietary software<ArrowRight className="ms-3" width={30} />
             </div>
           </div>
-          <div className="col-lg-6 p-4">
+          <div className="col-sm-6 p-md-4 p-sm-3 p-0">
             <div className="box" style={{ "--image": `url(${feature4})` }}>
               The wallets backend utilizes cutting edge encryption technology to
               ensure security<ArrowRight className="ms-3" width={30} />
             </div>
           </div>
-          <div className="col-lg-6 p-4">
+          <div className="col-sm-6 p-md-4 p-sm-3 p-0">
             <div className="box" style={{ "--image": `url(${feature2})` }}>
               Dlux рау offers fast, stellar customer support<ArrowRight className="ms-3" width={30} />
             </div>
           </div>
-          <div className="col-lg-6 p-4">
+          <div className="col-sm-6 p-md-4 p-sm-3 p-0">
             <div className="box" style={{ "--image": `url(${feature3})` }}>
               We make sure to deliver the funds where they need to bе
               immediately<ArrowRight className="ms-3" width={30} />

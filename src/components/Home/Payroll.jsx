@@ -6,7 +6,7 @@ const Payroll = () => {
   return (
     <section className="py-4 position-relative overflow-hidden">
       <div
-        className="position-absolute top-0 p-4"
+        className="position-absolute d-none d-md-block top-0 p-4"
         style={{
           left: "50%",
           transform: "translateX(-50%)",
@@ -17,7 +17,7 @@ const Payroll = () => {
       <img
         src={employee1}
         width={350}
-        className="position-absolute bottom-0 left-0"
+        className="position-absolute d-none d-md-block bottom-0 left-0"
         style={{
           transform: "translateY(20%)",
         }}
@@ -26,13 +26,13 @@ const Payroll = () => {
       <img
         src={employee2}
         width={350}
-        className="position-absolute top-0 end-0"
+        className="position-absolute d-none d-md-block top-0 end-0"
         style={{
           transform: "translateY(-10%)",
         }}
         alt="employee2"
       />
-      <div className="container">
+      <div className="container text-center text-lg-start">
         <div className="row p-5">
           <div className="col-lg-7 p-4 pt-5">
             <h3>

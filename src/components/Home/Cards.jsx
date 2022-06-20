@@ -8,8 +8,8 @@ const Cards = () => {
     <section className="py-5">
       <div className="container">
         <div className="row">
-          <div className="col-lg-3 px-3">
-            <div className="px-5 h-100 d-flex flex-column justify-content-end">
+          <div className="col-lg-3 col-6 px-3">
+            <div className="px-lg-5 h-100 d-flex flex-column justify-content-end">
               <div className="px-4 mb-4">
                 <Icon1 className="icon" />
               </div>
@@ -19,17 +19,17 @@ const Cards = () => {
               </h3>
             </div>
           </div>
-          <div className="col-lg-3 px-3">
-            <div className="px-5 h-100 d-flex flex-column justify-content-end">
+          <div className="col-lg-3 col-6 px-3">
+            <div className="px-lg-5 h-100 d-flex flex-column justify-content-end">
               <div className="px-4 mb-4 w-100">
                 <Icon2 className="icon" />
               </div>
               <h3>Get a pre-paid debit card</h3>
             </div>
           </div>
-          <div className="col-lg-3 px-3">
+          <div className="col-lg-3 col-6 px-3">
             <div className="px-4 h-100 d-flex flex-column justify-content-end">
-              <div className="px-5 mb-4 w-100">
+              <div className="px-lg-5 mb-4 w-100">
                 <Icon3 className="icon" />
               </div>
               <h3>
@@ -38,8 +38,8 @@ const Cards = () => {
               </h3>
             </div>
           </div>
-          <div className="col-lg-3 px-3">
-            <div className="px-5 h-100 d-flex flex-column justify-content-end">
+          <div className="col-lg-3 col-6 px-3">
+            <div className="px-lg-5 h-100 d-flex flex-column justify-content-end">
               <div className="px-4 mb-4 w-100">
                 <Icon4 className="icon" />
               </div>
