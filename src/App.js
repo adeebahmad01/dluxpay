@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import { useEffect } from "react";
+import Faq from "./pages/Faq";
 function App() {
   const location = useLocation();
   useEffect(()=> {
@@ -19,7 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/faq" element={<div style={{ height: `100vh` }} />} />
+        <Route path="/faq" element={<Faq />} />
         <Route path="/contact" element={<div style={{ height: `100vh` }} />} />
       </Routes>
     </Layout>

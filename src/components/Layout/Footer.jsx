@@ -26,8 +26,8 @@ const Footer = ({links}) => {
               <span className="d-inline-block">Info</span>
             </h3>
             <p>
-              <a className="" href="mailto:suport@dluxpay.com">
-                suport@dluxpay.com
+              <a href="mailto:support@dluxpay.com">
+                support@dluxpay.com
               </a>
             </p>
           </div>
