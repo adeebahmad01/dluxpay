@@ -21,7 +21,7 @@ const Header = ({ links }) => {
           <Logo width={150} />
         </a>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler border-0 shadow-none"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
