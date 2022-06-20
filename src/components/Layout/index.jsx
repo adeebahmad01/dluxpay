@@ -19,7 +19,11 @@ const links = [
   {
     name: "Contact Us",
     link: "/contact",
-  }
+  },
+  {
+    name: "FAQ",
+    link: "/faq",
+  },
 ];
 
 const Layout = ({ children }) => {
