@@ -7,11 +7,11 @@ import { ReactComponent as Arrow } from "../../assets/images/arrow.svg";
 import { ReactComponent as ArrowRight } from "../../assets/images/arrow-right.svg";
 const Features = () => {
   return (
-    <section className="py-5 position-relative" style={{
+    <section className="py-lg-5 position-relative" style={{
       backgroundColor: "#f5f5f5",
     }}>
       <div
-        className="position-absolute top-0 p-4"
+        className="position-absolute d-none d-md-block top-0 p-4"
         style={{
           left: "50%",
           transform: "translateX(-50%)",

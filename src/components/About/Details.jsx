@@ -39,7 +39,7 @@ const Details = () => {
             <div className="col-lg-6 d-flex py-4 text-lg-start text-center flex-column justify-content-center">
               <h3>
                 Your payees receive their funds instantly, and without hassles
-                and delays. We also provide unmatched customer support,
+                and delays. <br /> We also provide unmatched customer support,
                 listening to, understanding and adapting to our clients' needs.
               </h3>
               <br />
@@ -58,10 +58,10 @@ const Details = () => {
             </div>
           </div>
           <div className="py-4">
-          <h3 className="d-lg-none text-lg-start text-center d-block">
-                long story short, <span className="text-primary">DluxPay</span>{" "}
-                is really worth using.
-              </h3>
+            <h3 className="d-lg-none text-lg-start text-center d-block">
+              long story short, <span className="text-primary">DluxPay</span> is
+              really worth using.
+            </h3>
           </div>
         </div>
       </section>

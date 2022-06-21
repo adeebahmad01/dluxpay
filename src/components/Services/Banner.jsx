@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <section className="py-5 bg-primary">
-      <div className="container">
+      <div className="container text-md-start text-center">
         <h1 className="text-white">
           Business <br />
           Accounts

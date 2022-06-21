@@ -17,7 +17,7 @@ const Payroll = () => {
       <img
         src={employee1}
         width={350}
-        className="position-absolute d-none d-md-block bottom-0 left-0"
+        className="position-absolute d-none d-lg-block bottom-0 left-0"
         style={{
           transform: "translateY(20%)",
         }}
@@ -26,15 +26,15 @@ const Payroll = () => {
       <img
         src={employee2}
         width={350}
-        className="position-absolute d-none d-md-block top-0 end-0"
+        className="position-absolute d-none d-lg-block top-0 end-0"
         style={{
           transform: "translateY(-10%)",
         }}
         alt="employee2"
       />
       <div className="container text-center text-lg-start">
-        <div className="row p-5">
-          <div className="col-lg-7 p-4 pt-5">
+        <div className="row p-lg-5 p-4">
+          <div className="col-lg-7 p-lg-4 pt-lg-5">
             <h3>
               <span className="text-primary">Dluxpay</span> is a simple and
               efficient payroll solution providing great advantages for
@@ -42,9 +42,8 @@ const Payroll = () => {
             </h3>
           </div>
         </div>
-        <br />
-        <div className="row p-5 mt-5">
-          <div className="col-lg-7 offset-lg-5 p-5">
+        <div className="row p-lg-5 p-4 mt-lg-5">
+          <div className="col-lg-7 offset-lg-5 p-lg-5">
             <h3>
               We offer all your employees the ability to gain instant access to
               their funds with a prepaid debit card.
