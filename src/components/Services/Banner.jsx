@@ -8,9 +8,9 @@ const Banner = () => {
           Business <br />
           Accounts
         </h1>
-        <h3 className="text-white">
-          providing payments to freelancers and remote employees
-        </h3>
+        <h5 className="text-white">
+          Providing payments to freelancers and remote employees
+        </h5>
       </div>
     </section>
   );
