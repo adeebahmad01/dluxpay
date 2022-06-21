@@ -9,14 +9,14 @@ const Footer = ({ links }) => {
           <div className="col-lg-5 order-md-1 order-3">
             <h3>About</h3>
             <p>
-              Dlux Рау offers аll your employees the ability <br /> to gain
-              instant access to their funds with Visa, <br /> and in the near
+              Dlux Рау offers аll your employees the ability to gain
+              instant access to their funds with Visa, and in the near
               future MasterCard as well.
             </p>
             <p>
               As a payer, you are only charged your bank's sending fees, so you
-              can use DluxPay absolutely free. <br /> Your payees will enjoy the
-              lowest industry rates <br />
+              can use DluxPay absolutely free. Your payees will enjoy the
+              lowest industry rates
               when converting withdrawing and transferring funds.
             </p>
           </div>
