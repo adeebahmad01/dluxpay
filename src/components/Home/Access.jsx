@@ -27,14 +27,14 @@ const Access = () => {
             <div className="d-flex flex-column justify-content-md-start align-items-md-start justify-content-center align-items-center flex-md-row gap-5">
               <a
                 href="mailto:signup@dluxpay.com"
-                className="btn button rounded-0 text-uppercase px-2 py-2 bg-primary text-white btn-primary"
+                className="btn button rounded-0 text-uppercase px-2 py-md-2 py-3 bg-primary text-white btn-primary"
                 type="submit"
               >
                 sign up
               </a>
               <a
                 href="mailto:support@dluxpay.com"
-                className="btn button btn-light rounded-0 text-uppercase px-2 py-2"
+                className="btn button btn-light rounded-0 text-uppercase px-2 py-md-2 py-3"
                 type="submit"
               >
                 learn more
