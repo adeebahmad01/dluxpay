@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import { useEffect } from "react";
 import Faq from "./pages/Faq";
+import Contact from "./pages/Contact";
 function App() {
   const location = useLocation();
   useEffect(()=> {
@@ -21,7 +22,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/faq" element={<Faq />} />
-        <Route path="/contact" element={<div style={{ height: `100vh` }} />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Layout>
   );

@@ -38,7 +38,7 @@ const Payroll = () => {
             <h3>
               <span className="text-primary">Dluxpay</span> is a simple and
               efficient payroll solution providing great advantages for
-              freelancers and companies paying them.
+              freelancers and the companies paying them.
             </h3>
           </div>
         </div>

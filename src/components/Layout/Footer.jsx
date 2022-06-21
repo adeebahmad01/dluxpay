@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Footer = ({links}) => {
+const Footer = ({ links }) => {
   return (
     <footer className="py-4 bg-light">
       <div className="container">
@@ -14,9 +14,9 @@ const Footer = ({links}) => {
               future MasterCard as well.
             </p>
             <p>
-              The payer is charged only the bank's fees, <br /> so you can use
-              DluxPay absolutely free. <br /> Your payees will enjoy the lowest
-              industry rates <br />
+              As a payer, you are only charged your bank's sending fees, so you
+              can use DluxPay absolutely free. <br /> Your payees will enjoy the
+              lowest industry rates <br />
               when converting withdrawing and transferring funds.
             </p>
           </div>
@@ -26,25 +26,21 @@ const Footer = ({links}) => {
               <span className="d-inline-block">Info</span>
             </h3>
             <p>
-              <a href="mailto:support@dluxpay.com">
-                support@dluxpay.com
-              </a>
+              <a href="mailto:support@dluxpay.com">support@dluxpay.com</a>
             </p>
           </div>
           <div className="col-lg-3 py-md-0 py-4 order-md-3 order-1 d-flex justify-content-between align-content-center flex-column">
             <div className="d-md-block d-none">
               <h3>Links</h3>
               <ul className="list-unstyled">
-                {links.map(
-                  (el) => (
-                    <li key={el}>
-                      <Link to={el.link}>{el.name}</Link>
-                    </li>
-                  )
-                )}
+                {links.map((el) => (
+                  <li key={el.name}>
+                    <Link to={el.link}>{el.name}</Link>
+                  </li>
+                ))}
               </ul>
             </div>
-            <div>copyright @ 2021-2022 by dluxpay</div>
+            <div>copyright © 2022 DluxPay. All rights reserved.</div>
           </div>
         </div>
       </div>

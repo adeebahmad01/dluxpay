@@ -4,7 +4,6 @@ import feature2 from "../../assets/images/features-1.png";
 import feature3 from "../../assets/images/features-2.png";
 import feature4 from "../../assets/images/features-3.png";
 import { ReactComponent as Arrow } from "../../assets/images/arrow.svg";
-import { ReactComponent as ArrowRight } from "../../assets/images/arrow-right.svg";
 const Features = () => {
   return (
     <section className="py-lg-5 position-relative" style={{
@@ -24,24 +23,23 @@ const Features = () => {
           <div className="col-sm-6 p-md-4 p-sm-3 p-0">
             <div className="box" style={{ "--image": `url(${feature1})` }}>
               DluxPay has industry vet developers that run, operate and secure
-              our proprietary software<ArrowRight className="ms-3" width={30} />
+              our proprietary software
             </div>
           </div>
           <div className="col-sm-6 p-md-4 p-sm-3 p-0">
             <div className="box" style={{ "--image": `url(${feature4})` }}>
-              The wallets backend utilizes cutting edge encryption technology to
-              ensure security<ArrowRight className="ms-3" width={30} />
+            The wallet's backend uses cutting-edge encryption technology to ensure security
             </div>
           </div>
           <div className="col-sm-6 p-md-4 p-sm-3 p-0">
             <div className="box" style={{ "--image": `url(${feature2})` }}>
-              Dlux рау offers fast, stellar customer support<ArrowRight className="ms-3" width={30} />
+              Dlux рау offers fast, stellar customer support
             </div>
           </div>
           <div className="col-sm-6 p-md-4 p-sm-3 p-0">
             <div className="box" style={{ "--image": `url(${feature3})` }}>
               We make sure to deliver the funds where they need to bе
-              immediately<ArrowRight className="ms-3" width={30} />
+              immediately
             </div>
           </div>
         </div>

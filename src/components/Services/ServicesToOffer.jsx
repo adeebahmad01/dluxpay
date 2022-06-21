@@ -15,10 +15,8 @@ const ServicesToOffer = () => {
                 <Icon1 className="icon" />
               </div>
               <p>
-              Start your business
-account easily and provide
-international payments
-for your workforce
+                Start your business account easily and provide international
+                payments for your workforce
               </p>
             </div>
           </div>
@@ -27,11 +25,10 @@ for your workforce
               <div className="px-5 mb-4 w-100">
                 <Icon2 className="icon" />
               </div>
-              <p>Make everything happen
-by just clicking a button
-in your own system
-as we offer a full
-api integration</p>
+              <p>
+                Make everything happen by just clicking a button in your own
+                system as we offer a full api integration
+              </p>
             </div>
           </div>
           <div className="col-lg-3 col-6">
@@ -40,10 +37,8 @@ api integration</p>
                 <Icon3 className="icon" />
               </div>
               <p>
-              The wallet's backend
-utilize cutting edge
-encryption technology
-to ensure security
+                The wallet's backend utilize cutting edge encryption technology
+                to ensure security
               </p>
             </div>
           </div>
@@ -53,10 +48,8 @@ to ensure security
                 <Icon4 className="icon" />
               </div>
               <p>
-              We provide fast
-customer support
-understanding and
-adapting to your needs
+                We provide fast customer support, understanding, and adapting to
+                your needs
               </p>
             </div>
           </div>

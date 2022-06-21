@@ -24,7 +24,7 @@ const Cards = () => {
               <div className="px-4 mb-4 w-100">
                 <Icon2 className="icon" />
               </div>
-              <h3>Get a pre-paid debit card</h3>
+              <h3>Get a prepaid debit card</h3>
             </div>
           </div>
           <div className="col-lg-3 text-md-start text-center col-6 px-3">
