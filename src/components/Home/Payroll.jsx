@@ -32,7 +32,7 @@ const Payroll = () => {
         }}
         alt="employee2"
       />
-      <div className="container text-center text-lg-start">
+      <div className="container">
         <div className="row p-lg-5 p-4">
           <div className="col-lg-7 p-lg-4 pt-lg-5">
             <h3>

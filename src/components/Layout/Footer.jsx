@@ -5,7 +5,7 @@ const Footer = ({ links }) => {
   return (
     <footer className="py-4 bg-light">
       <div className="container">
-        <div className="row text-md-start text-center">
+        <div className="row">
           <div className="col-lg-5 order-md-1 order-3">
             <h3>About</h3>
             <p>

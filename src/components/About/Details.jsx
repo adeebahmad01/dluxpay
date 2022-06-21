@@ -8,7 +8,7 @@ const Details = () => {
       <section className="py-5" style={{ backgroundColor: "#f5f5f5" }}>
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 py-4 text-lg-start text-center d-flex flex-column justify-content-center">
+            <div className="col-lg-6 py-4 d-flex flex-column justify-content-center">
               <h3>
                 DluxPay provides a viable solution for freelance workers in the
                 indusrty to have access to their funds on a prepaid, reloadable
@@ -36,7 +36,7 @@ const Details = () => {
       <section className="py-5">
         <div className="container">
           <div className="row flex-lg-row-reverse">
-            <div className="col-lg-6 d-flex py-4 text-lg-start text-center flex-column justify-content-center">
+            <div className="col-lg-6 d-flex py-4 flex-column justify-content-center">
               <h3>
                 Your payees receive their funds instantly, and without hassles
                 and delays. <br /> We also provide unmatched customer support,
