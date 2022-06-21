@@ -6,7 +6,7 @@ const Footer = ({links}) => {
     <footer className="py-4 bg-light">
       <div className="container">
         <div className="row text-md-start text-center">
-          <div className="col-lg-5 order-lg-1">
+          <div className="col-lg-5 order-md-1 order-3">
             <h3>About</h3>
             <p>
               Dlux Рау offers аll your employees the ability <br /> to gain
@@ -20,7 +20,7 @@ const Footer = ({links}) => {
               when converting withdrawing and transferring funds.
             </p>
           </div>
-          <div className="col-lg-4 order-lg-2 py-md-0 py-4">
+          <div className="col-lg-4 order-2 py-md-0 py-4">
             <h3>
               <span>Contact </span>
               <span className="d-inline-block">Info</span>
@@ -31,8 +31,8 @@ const Footer = ({links}) => {
               </a>
             </p>
           </div>
-          <div className="col-lg-3 d-none d-md-flex justify-content-between align-content-center flex-column">
-            <div>
+          <div className="col-lg-3 py-md-0 py-4 order-md-3 order-1 d-flex justify-content-between align-content-center flex-column">
+            <div className="d-md-block d-none">
               <h3>Links</h3>
               <ul className="list-unstyled">
                 {links.map(
