@@ -32,13 +32,6 @@ const Access = () => {
               >
                 sign up
               </a>
-              <a
-                href="mailto:support@dluxpay.com"
-                className="btn d-inline-block button btn-light rounded-0 text-uppercase px-2 py-md-2 py-3"
-                type="submit"
-              >
-                learn more
-              </a>
             </div>
           </div>
           <div className="col-lg-6 py-5">
